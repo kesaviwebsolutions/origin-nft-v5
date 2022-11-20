@@ -1,0 +1,9 @@
+.nav-list,
+.nav-icon {
+  display: flex;
+  list-style-type: none;
+  float: right;
+}
+.nav-list li {
+  margin-right: 1rem;
+}
