@@ -1,0 +1,9 @@
+.globe-image {
+  width: 100% !important;
+}
+.globe {
+  background-image: url("../Images/globe.png");
+  background-size: 100vw;
+  height: 100vw;
+  background-repeat: no-repeat;
+}

@@ -3,6 +3,10 @@
   --white: #ffff;
 }
 
+html {
+  font-size: 62.5%;
+}
+
 #containerspacing {
   padding: 3rem 5%;
 }
@@ -22,6 +26,9 @@
 }
 #buttonspacing {
   margin-top: 1rem;
+}
+.navbar {
+  padding: 1rem 1%;
 }
 
 /* media-query */
@@ -48,7 +55,7 @@
     margin-top: 1rem;
   }
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 900px) {
   #containerspacing {
     padding: 2rem 0rem;
   }
@@ -68,5 +75,15 @@
   }
   #buttonspacing {
     margin-top: 1rem;
+  }
+}
+@media screen and (max-width: 1200px) {
+  html {
+    font-size: 55%;
+  }
+}
+@media screen and (max-width: 900px) {
+  html {
+    font-size: 45%;
   }
 }
