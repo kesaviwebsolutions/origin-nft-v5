@@ -1,6 +1,7 @@
 :root {
   --black: #0000;
   --white: #ffff;
+  --yellow: #fec200;
 }
 
 html {
@@ -29,6 +30,18 @@ html {
 }
 .navbar {
   padding: 1rem 1%;
+}
+button {
+  border: none !important;
+  outline: none !important;
+  background-color: transparent !important;
+  font-size: 2rem;
+  padding: 1rem;
+  border-radius: 10px;
+  width: 15rem;
+  height: 6rem;
+  margin: 1rem;
+  box-shadow: 3px -1px 50px -3px #2e2e2e;
 }
 
 /* media-query */

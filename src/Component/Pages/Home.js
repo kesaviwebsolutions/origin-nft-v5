@@ -9,14 +9,13 @@ function Home() {
     <>
       <Grid container className="globe">
         <Navbar />
-        <Grid
-          container
-          direction="row"
-          justifyContent="center"
-          alignItems="baseline"
-        >
+        <Grid container direction="row" justifyContent="center">
           <Grid item xl={12}>
-            <h1>Explore, collect, and sell NFTs</h1>
+            <h1 className="heading-explore">
+              Explore, collect, and sell NFTs <br />
+              <button className="button-explore">Explore</button> &nbsp;
+              <button className="button-sell">Sell</button>
+            </h1>
           </Grid>
         </Grid>
       </Grid>

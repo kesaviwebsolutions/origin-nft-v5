@@ -7,3 +7,16 @@
   height: 100vw;
   background-repeat: no-repeat;
 }
+.heading-explore {
+  font-size: 4rem;
+  text-align: center;
+  color: var(--white);
+  vertical-align: middle !important;
+  margin-top: 10%;
+}
+.button-explore {
+  background-color: var(--white) !important;
+}
+.button-sell {
+  background-color: var(--yellow) !important;
+}
