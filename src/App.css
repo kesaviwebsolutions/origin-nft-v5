@@ -100,3 +100,8 @@ button {
     font-size: 45%;
   }
 }
+@media screen and (max-width: 600px) {
+  html {
+    font-size: 40%;
+  }
+}
