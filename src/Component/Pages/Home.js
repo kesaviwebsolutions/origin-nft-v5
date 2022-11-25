@@ -1,15 +1,17 @@
 import React from "react";
 import Navbar from "./Navbar";
-import globe from "../Images/globe.png";
-import { Grid, Box } from "@mui/material";
+import { Grid, Box,Container } from "@mui/material";
+import Swiperhome from "./HomeSwiper";
+import HomeTab from "./HomeTab";
+import HomeNotable from "./HomeNotable";
 import "./Home.css";
 
 function Home() {
   return (
     <>
-      <Grid container className="globe">
+      <Grid container className="globe ">
         <Navbar />
-        <Grid container direction="row" justifyContent="center">
+        <Grid container>
           <Grid item xl={12}>
             <h1 className="heading-explore">
               Explore, collect, and sell NFTs <br />
@@ -19,6 +21,10 @@ function Home() {
           </Grid>
         </Grid>
       </Grid>
+      <Swiperhome />
+<HomeTab />
+<HomeNotable />
+
     </>
   );
 }

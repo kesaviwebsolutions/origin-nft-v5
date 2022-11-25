@@ -19,6 +19,7 @@
   position: fixed;
   top: 0;
   background-image: url();
+  z-index: 9999;
 }
 .toggle-btn {
   float: right;

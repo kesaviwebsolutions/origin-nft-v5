@@ -3,20 +3,30 @@
 }
 .globe {
   background-image: url("../Images/globe.png");
-  background-size: 100vw;
-  height: 100vw;
+  background-size:cover ;
+  width: 100%;
+  min-height: 43rem;
+
+
+  /* height: 100rem; */
   background-repeat: no-repeat;
 }
 .heading-explore {
   font-size: 4rem;
   text-align: center;
   color: var(--white);
-  vertical-align: middle !important;
-  margin-top: 10%;
+  position: absolute !important;
+  top: 50% !important;
+  left: 50% !important;
+  transform: translate(-50%,-50%) !important;
+  text-align: center;
 }
 .button-explore {
   background-color: var(--white) !important;
 }
 .button-sell {
   background-color: var(--yellow) !important;
+}
+.globe{
+  position: relative;
 }
