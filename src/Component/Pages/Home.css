@@ -23,9 +23,11 @@
 }
 .button-explore {
   background-color: var(--white) !important;
+  width: 16rem;
 }
 .button-sell {
   background-color: var(--yellow) !important;
+  width: 16rem;
 }
 .globe{
   position: relative;
